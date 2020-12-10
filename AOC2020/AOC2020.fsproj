@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>AOC2020</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Day2-PasswordPhilosophy\Inputs.fs" />
+    <Compile Include="Day2-PasswordPhilosophy\File1.fs" />
+    <Compile Include="Day1-ReportRepair\Inputs.fs" />
+    <Compile Include="Day1-ReportRepair\ReportRepair.fs" />
+    <Compile Include="Day1-ReportRepair\File1.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Day2-PasswordPhilosophy\data\input-day2.txt" />
+  </ItemGroup>
+
+</Project>
