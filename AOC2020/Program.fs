@@ -17,5 +17,8 @@ let main argv =
         //printfn $"processing 'aocSampleInput' {Day2.Inputs.aocSampleInput} through 'FixExpenseReport'"// produces: {ReportRepair.FixExpenseReport  Inputs.aocSampleInput}, should be 514579."
         //printfn $"hej {Day2.Inputs.aocPuzzleInput}."
         //printfn $"hej {Day2.File1.echo}."
-        printfn $"test {Day2.File1.testParse}."
+        //printfn $"test {Day2.File1.testParse}."
+        //printfn $"test {Day2.File1.test}."
+        //printfn $"test {Day2.Data().Read(}."
+        printfn $"test {Day2.File1.data.ValidCount}."
     0 // Return an integer exit code
