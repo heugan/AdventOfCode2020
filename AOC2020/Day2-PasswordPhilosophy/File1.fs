@@ -46,7 +46,7 @@ let testParse =
 
 let parsePolicy input = 
     match input with
-    | Regex @"([0-9])[-. ]?([0-9])[-. ]?(\w):[-. ]?(\w*)" [min; max; token; password] ->
+    | Regex @"([0-9]*)[-. ]?([0-9]*)[-. ]?(\w):[-. ]?(\w*)" [min; max; token; password] ->
     Some(new PasswordPolicyCheck(int min, int max, token, password))
     | _ -> None
 
@@ -79,6 +79,7 @@ type Data() =
     member val ValidCount : int = 0 with get, set
 
     member x.Read() =
+        //use stream = new StreamReader @".\..\..\..\Day2-PasswordPhilosophy\data\sample-day2.txt"
         use stream = new StreamReader @".\..\..\..\Day2-PasswordPhilosophy\data\input-day2.txt"
 //let path = ".\data\input-day2.txt"
         // Continue reading while valid lines.
@@ -101,3 +102,5 @@ type Data() =
 // Create instance of Data and Read in the file.
 let data = Data()
 data.Read()
+
+// Dag 2 del 1: 643

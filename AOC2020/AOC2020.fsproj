@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Day2-PasswordPhilosophy\data\sample-day2.txt" />
     <Content Include="Day2-PasswordPhilosophy\data\input-day2.txt" />
   </ItemGroup>
 

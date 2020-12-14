@@ -21,4 +21,6 @@ let main argv =
         //printfn $"test {Day2.File1.test}."
         //printfn $"test {Day2.Data().Read(}."
         printfn $"test {Day2.File1.data.ValidCount}."
+
+        // Högre än 394
     0 // Return an integer exit code
