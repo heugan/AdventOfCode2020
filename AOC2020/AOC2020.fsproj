@@ -9,6 +9,7 @@
   <ItemGroup>
     <Compile Include="Day2-PasswordPhilosophy\Inputs.fs" />
     <Compile Include="Day2-PasswordPhilosophy\File1.fs" />
+    <Compile Include="Day2-PasswordPhilosophy\PasswordPhilosophy.fs" />
     <Compile Include="Day1-ReportRepair\Inputs.fs" />
     <Compile Include="Day1-ReportRepair\ReportRepair.fs" />
     <Compile Include="Day1-ReportRepair\File1.fs" />

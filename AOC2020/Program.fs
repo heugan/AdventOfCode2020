@@ -20,7 +20,10 @@ let main argv =
         //printfn $"test {Day2.File1.testParse}."
         //printfn $"test {Day2.File1.test}."
         //printfn $"test {Day2.Data().Read(}."
-        printfn $"test {Day2.File1.data.ValidCount}."
+        //printfn $"test {Day2.File1.data.ValidCount}."
+        printfn $"read {Day2.PasswordPhilosophy.Data().Read()}."
+        printfn $"part1 {Day2.PasswordPhilosophy.data.Part1ValidCount}."
+        printfn $"part2 {Day2.PasswordPhilosophy.data.Part2ValidCount}."
 
         // Högre än 394
     0 // Return an integer exit code
