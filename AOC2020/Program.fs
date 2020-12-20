@@ -7,11 +7,13 @@ open System
 
 [<EntryPoint>]
 let main argv =
-    let day=2
+    let day=1
     if day=1 then 
         printfn "Day 1"
-        printfn $"processing 'aocSampleInput' {Inputs.aocSampleInput} through 'FixExpenseReport' produces: {ReportRepair.FixExpenseReport  Inputs.aocSampleInput}, should be 514579."
-        printfn $"processing 'aocSampleInput' {Inputs.aocPuzzleInput} through 'FixExpenseReport' produces: {ReportRepair.FixExpenseReport  Inputs.aocPuzzleInput}."
+        printfn $"day 1, part 1 sample: {ReportRepair.FixExpenseReport  Inputs.aocSampleInput}, should be 514579."
+        printfn $"day 1, part 1 puzzle: {ReportRepair.FixExpenseReport  Inputs.aocPuzzleInput}, should be 927684."
+        printfn $"day 1, part 2 sample: {ReportRepair.FixExpenseReportPart2  Inputs.aocSampleInput}, should be 241861950."
+        printfn $"day 1, part 2 puzzle: {ReportRepair.FixExpenseReportPart2  Inputs.aocPuzzleInput}, should be 292093004."
     elif day=2 then
         printfn "Day 2"
         //printfn $"processing 'aocSampleInput' {Day2.Inputs.aocSampleInput} through 'FixExpenseReport'"// produces: {ReportRepair.FixExpenseReport  Inputs.aocSampleInput}, should be 514579."
